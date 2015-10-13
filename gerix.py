@@ -711,18 +711,29 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
                 continue
 
             intf = intf.split('\t')
+            print intf
+            if len(intf)>3:
+                #new airmon-ng
+                interface_name=intf[1]
+                chipset_name=intf[4]
+                driver_name=intf[3]
+            else:
+                #old airmon-ng
+                interface_name=intf[0]
+                chipset_name=intf[2]
+                driver_name=intf[3]
             # get mac address
-            current_mac = commands.getoutput("ifconfig " + intf[1] + " | grep HWaddr | awk ' { print $5 } ' | tr '-' ':'")
+            current_mac = commands.getoutput("ifconfig " + interface_name + " | grep HWaddr | awk ' { print $5 } ' | tr '-' ':'")
             current_mac = current_mac[:17]
             # get mode
-            mode = commands.getoutput("iwconfig " + intf[1] + " | tr ' ' '\n' | grep -i 'Mode:' | tr ':' ' ' | awk '{print $2 }'")
+            mode = commands.getoutput("iwconfig " + interface_name + " | tr ' ' '\n' | grep -i 'Mode:' | tr ':' ' ' | awk '{print $2 }'")
             # fill table
             
             
             self.table_interfaces.insertRow(0)
             item=QtGui.QTableWidgetItem()
             item.setFlags(QtCore.Qt.ItemIsSelectable|QtCore.Qt.ItemIsEnabled)
-            item.setText(intf[1])
+            item.setText(interface_name)
             self.table_interfaces.setItem(0, 0,item )
             
             item=QtGui.QTableWidgetItem()
@@ -732,12 +743,12 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
             
             item=QtGui.QTableWidgetItem()
             item.setFlags(QtCore.Qt.ItemIsSelectable|QtCore.Qt.ItemIsEnabled)
-            item.setText(intf[2])
+            item.setText(chipset_name)
             self.table_interfaces.setItem(0, 2,item )
             
             item=QtGui.QTableWidgetItem()
             item.setFlags(QtCore.Qt.ItemIsSelectable|QtCore.Qt.ItemIsEnabled)
-            item.setText((intf[3]))
+            item.setText((driver_name))
             self.table_interfaces.setItem(0, 3,item )
 
             item=QtGui.QTableWidgetItem()
