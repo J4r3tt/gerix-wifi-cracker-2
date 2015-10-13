@@ -711,7 +711,6 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
                 continue
 
             intf = intf.split('\t')
-            print intf
             if len(intf)>4:
                 #new airmon-ng
                 interface_name=intf[1]
@@ -722,6 +721,7 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
                 interface_name=intf[0]
                 chipset_name=intf[2]
                 driver_name=intf[3]
+                
             # get mac address
             current_mac = commands.getoutput("ifconfig " + interface_name + " | grep HWaddr | awk ' { print $5 } ' | tr '-' ':'")
             current_mac = current_mac[:17]
