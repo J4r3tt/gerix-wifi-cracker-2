@@ -712,7 +712,7 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
 
             intf = intf.split('\t')
             print intf
-            if len(intf)>3:
+            if len(intf)>4:
                 #new airmon-ng
                 interface_name=intf[1]
                 chipset_name=intf[4]
