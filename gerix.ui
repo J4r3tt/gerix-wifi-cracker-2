@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>648</width>
-    <height>642</height>
+    <height>685</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Gerix wifi cracker</string>
+   <string>Gerix wifi cracker 2</string>
   </property>
   <widget class="QWidget" name="widget">
    <layout class="QGridLayout">
@@ -184,8 +184,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>606</width>
-             <height>401</height>
+             <width>618</width>
+             <height>428</height>
             </rect>
            </property>
            <attribute name="label">
@@ -470,8 +470,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>232</width>
-             <height>140</height>
+             <width>261</width>
+             <height>160</height>
             </rect>
            </property>
            <attribute name="label">
@@ -533,8 +533,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>589</width>
-             <height>314</height>
+             <width>479</width>
+             <height>370</height>
             </rect>
            </property>
            <attribute name="label">
@@ -638,8 +638,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>244</width>
-             <height>420</height>
+             <width>287</width>
+             <height>528</height>
             </rect>
            </property>
            <attribute name="label">
@@ -801,8 +801,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>274</width>
-             <height>201</height>
+             <width>307</width>
+             <height>231</height>
             </rect>
            </property>
            <attribute name="label">
@@ -932,8 +932,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>232</width>
-             <height>140</height>
+             <width>261</width>
+             <height>160</height>
             </rect>
            </property>
            <attribute name="label">
@@ -995,8 +995,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>606</width>
-             <height>348</height>
+             <width>504</width>
+             <height>279</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1117,8 +1117,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>606</width>
-             <height>374</height>
+             <width>655</width>
+             <height>387</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1352,8 +1352,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>606</width>
-             <height>322</height>
+             <width>573</width>
+             <height>116</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1409,8 +1409,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>314</width>
-             <height>248</height>
+             <width>332</width>
+             <height>315</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1508,8 +1508,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>470</width>
-             <height>143</height>
+             <width>544</width>
+             <height>180</height>
             </rect>
            </property>
            <attribute name="label">

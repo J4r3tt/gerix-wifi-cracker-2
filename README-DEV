@@ -4,7 +4,7 @@ The program is made up of some files:
 
 The file gerix.ui can be edited by Qt Creator or Qt 4 Designer and represent the GUI.
 
-The file gerix_gui.py is automatically generated from the command "pyuic gerix.ui -o gerix_gui.py" .
+The file gerix_gui.py is automatically generated from the command "pyuic4 gerix.ui -o gerix_gui.py" .
 
 The file gerix.py is the heart of the program, and contains the code to work. Encloses the class Main_window_ex (an extension of the class contained in the file Main_window gerix_gui.py) and implements the UI callbacks.
 
@@ -16,7 +16,7 @@ NOTES:
 To add new callbacks for GUI elements should use the section 'Connections' Qt 4 Designer, and connect the signal to the slot desired. 
 You can then implement the slot in the file gerix.py as class method Main_window_ex.
 
-To generate the file gerix_gui.py use the command 'make'. This command runs: 'pyuic gerix.ui -o gerix_gui.py'. See the Makefile.
+To generate the file gerix_gui.py use the command 'make'. This command runs: 'pyuic4 gerix.ui -o gerix_gui.py'. See the Makefile.
 
 
 PS:

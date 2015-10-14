@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gerix.ui'
 #
-# Created: Wed Oct 14 03:17:57 2015
+# Created: Wed Oct 14 04:13:35 2015
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -26,7 +26,7 @@ except AttributeError:
 class Ui_Main_window(object):
     def setupUi(self, Main_window):
         Main_window.setObjectName(_fromUtf8("Main_window"))
-        Main_window.resize(648, 642)
+        Main_window.resize(648, 685)
         self.widget = QtGui.QWidget(Main_window)
         self.widget.setObjectName(_fromUtf8("widget"))
         self.gridlayout = QtGui.QGridLayout(self.widget)
@@ -89,7 +89,7 @@ class Ui_Main_window(object):
         self.toolBox3_2 = QtGui.QToolBox(self.TabPage)
         self.toolBox3_2.setObjectName(_fromUtf8("toolBox3_2"))
         self.page1 = QtGui.QWidget()
-        self.page1.setGeometry(QtCore.QRect(0, 0, 606, 401))
+        self.page1.setGeometry(QtCore.QRect(0, 0, 618, 428))
         self.page1.setObjectName(_fromUtf8("page1"))
         self.gridlayout3 = QtGui.QGridLayout(self.page1)
         self.gridlayout3.setObjectName(_fromUtf8("gridlayout3"))
@@ -209,7 +209,7 @@ class Ui_Main_window(object):
         self.toolBox2_2 = QtGui.QToolBox(self.TabPage1)
         self.toolBox2_2.setObjectName(_fromUtf8("toolBox2_2"))
         self.page11 = QtGui.QWidget()
-        self.page11.setGeometry(QtCore.QRect(0, 0, 232, 140))
+        self.page11.setGeometry(QtCore.QRect(0, 0, 261, 160))
         self.page11.setObjectName(_fromUtf8("page11"))
         self.vboxlayout = QtGui.QVBoxLayout(self.page11)
         self.vboxlayout.setObjectName(_fromUtf8("vboxlayout"))
@@ -233,7 +233,7 @@ class Ui_Main_window(object):
         self.vboxlayout.addItem(spacerItem4)
         self.toolBox2_2.addItem(self.page11, _fromUtf8(""))
         self.page2 = QtGui.QWidget()
-        self.page2.setGeometry(QtCore.QRect(0, 0, 589, 314))
+        self.page2.setGeometry(QtCore.QRect(0, 0, 479, 370))
         self.page2.setObjectName(_fromUtf8("page2"))
         self.gridlayout6 = QtGui.QGridLayout(self.page2)
         self.gridlayout6.setObjectName(_fromUtf8("gridlayout6"))
@@ -275,7 +275,7 @@ class Ui_Main_window(object):
         self.gridlayout6.addWidget(self.buttonGroup1_3, 1, 0, 1, 1)
         self.toolBox2_2.addItem(self.page2, _fromUtf8(""))
         self.page = QtGui.QWidget()
-        self.page.setGeometry(QtCore.QRect(0, 0, 244, 420))
+        self.page.setGeometry(QtCore.QRect(0, 0, 287, 528))
         self.page.setObjectName(_fromUtf8("page"))
         self.vboxlayout5 = QtGui.QVBoxLayout(self.page)
         self.vboxlayout5.setObjectName(_fromUtf8("vboxlayout5"))
@@ -344,7 +344,7 @@ class Ui_Main_window(object):
         self.vboxlayout5.addItem(spacerItem6)
         self.toolBox2_2.addItem(self.page, _fromUtf8(""))
         self.page1 = QtGui.QWidget()
-        self.page1.setGeometry(QtCore.QRect(0, 0, 274, 201))
+        self.page1.setGeometry(QtCore.QRect(0, 0, 307, 231))
         self.page1.setObjectName(_fromUtf8("page1"))
         self.vboxlayout9 = QtGui.QVBoxLayout(self.page1)
         self.vboxlayout9.setObjectName(_fromUtf8("vboxlayout9"))
@@ -398,7 +398,7 @@ class Ui_Main_window(object):
         self.toolBox4_2 = QtGui.QToolBox(self.TabPage2)
         self.toolBox4_2.setObjectName(_fromUtf8("toolBox4_2"))
         self.page21 = QtGui.QWidget()
-        self.page21.setGeometry(QtCore.QRect(0, 0, 232, 140))
+        self.page21.setGeometry(QtCore.QRect(0, 0, 261, 160))
         self.page21.setObjectName(_fromUtf8("page21"))
         self.vboxlayout13 = QtGui.QVBoxLayout(self.page21)
         self.vboxlayout13.setObjectName(_fromUtf8("vboxlayout13"))
@@ -422,7 +422,7 @@ class Ui_Main_window(object):
         self.vboxlayout13.addItem(spacerItem8)
         self.toolBox4_2.addItem(self.page21, _fromUtf8(""))
         self.page2 = QtGui.QWidget()
-        self.page2.setGeometry(QtCore.QRect(0, 0, 606, 348))
+        self.page2.setGeometry(QtCore.QRect(0, 0, 504, 279))
         self.page2.setObjectName(_fromUtf8("page2"))
         self.vboxlayout16 = QtGui.QVBoxLayout(self.page2)
         self.vboxlayout16.setObjectName(_fromUtf8("vboxlayout16"))
@@ -473,7 +473,7 @@ class Ui_Main_window(object):
         self.toolBox5 = QtGui.QToolBox(self.TabPage3)
         self.toolBox5.setObjectName(_fromUtf8("toolBox5"))
         self.page12 = QtGui.QWidget()
-        self.page12.setGeometry(QtCore.QRect(0, 0, 606, 374))
+        self.page12.setGeometry(QtCore.QRect(0, 0, 655, 387))
         self.page12.setObjectName(_fromUtf8("page12"))
         self.vboxlayout18 = QtGui.QVBoxLayout(self.page12)
         self.vboxlayout18.setObjectName(_fromUtf8("vboxlayout18"))
@@ -575,7 +575,7 @@ class Ui_Main_window(object):
         self.toolBox5_3 = QtGui.QToolBox(self.TabPage4)
         self.toolBox5_3.setObjectName(_fromUtf8("toolBox5_3"))
         self.page13 = QtGui.QWidget()
-        self.page13.setGeometry(QtCore.QRect(0, 0, 606, 322))
+        self.page13.setGeometry(QtCore.QRect(0, 0, 573, 116))
         self.page13.setObjectName(_fromUtf8("page13"))
         self.vboxlayout20 = QtGui.QVBoxLayout(self.page13)
         self.vboxlayout20.setObjectName(_fromUtf8("vboxlayout20"))
@@ -595,7 +595,7 @@ class Ui_Main_window(object):
         self.vboxlayout20.addItem(spacerItem11)
         self.toolBox5_3.addItem(self.page13, _fromUtf8(""))
         self.page22 = QtGui.QWidget()
-        self.page22.setGeometry(QtCore.QRect(0, 0, 314, 248))
+        self.page22.setGeometry(QtCore.QRect(0, 0, 332, 315))
         self.page22.setObjectName(_fromUtf8("page22"))
         self.gridlayout11 = QtGui.QGridLayout(self.page22)
         self.gridlayout11.setObjectName(_fromUtf8("gridlayout11"))
@@ -637,7 +637,7 @@ class Ui_Main_window(object):
         self.gridlayout11.addWidget(self.groupBox1_3_3, 1, 0, 1, 1)
         self.toolBox5_3.addItem(self.page22, _fromUtf8(""))
         self.page3 = QtGui.QWidget()
-        self.page3.setGeometry(QtCore.QRect(0, 0, 470, 143))
+        self.page3.setGeometry(QtCore.QRect(0, 0, 544, 180))
         self.page3.setObjectName(_fromUtf8("page3"))
         self.gridlayout12 = QtGui.QGridLayout(self.page3)
         self.gridlayout12.setObjectName(_fromUtf8("gridlayout12"))
@@ -816,7 +816,7 @@ class Ui_Main_window(object):
         QtCore.QMetaObject.connectSlotsByName(Main_window)
 
     def retranslateUi(self, Main_window):
-        Main_window.setWindowTitle(_translate("Main_window", "Gerix wifi cracker", None))
+        Main_window.setWindowTitle(_translate("Main_window", "Gerix wifi cracker 2", None))
         self.textLabel1.setText(_translate("Main_window", "Hello and Welcome!<br>\n"
 "Gerix Wifi Cracker 2 is a GUI that can help you to work in Wireless 802.11 Penetration Test.<br>\n"
 "Upgraded from Gerix Wifi Cracker by Jarett<br>\n"
