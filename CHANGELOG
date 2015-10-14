@@ -1,3 +1,9 @@
+14 Oct 2015:
+- upgrade from qt3 to qt4
+- support both old and new airmon-ng(kali and kali 2)
+- fix some bugs
+- complete the real gerix.ui
+
 7 Luglio 2010:
 - Ora si utilizza una funzione per il controllo delle opzioni necessarie per i
   vari attacchi

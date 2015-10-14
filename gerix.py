@@ -259,6 +259,7 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
         
         elif self.intf_mode == "Monitor":
             status = commands.getstatusoutput('airmon-ng stop '  + self.periferica)
+
             if status[0] != 0:
                 self.output(status[1], status[0])
             else:
@@ -711,16 +712,18 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
                 continue
 
             intf = intf.split('\t')
-            if len(intf)>4:
+            if '' in intf:
+                intf.remove('')
+            if len(intf)>3:
                 #new airmon-ng
                 interface_name=intf[1]
-                chipset_name=intf[4]
-                driver_name=intf[3]
+                chipset_name=intf[3]
+                driver_name=intf[2]
             else:
                 #old airmon-ng
                 interface_name=intf[0]
-                chipset_name=intf[2]
-                driver_name=intf[3]
+                chipset_name=intf[1]
+                driver_name=intf[2]
                 
             # get mac address
             current_mac = commands.getoutput("ifconfig " + interface_name + " | grep HWaddr | awk ' { print $5 } ' | tr '-' ':'")
@@ -728,7 +731,6 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
             # get mode
             mode = commands.getoutput("iwconfig " + interface_name + " | tr ' ' '\n' | grep -i 'Mode:' | tr ':' ' ' | awk '{print $2 }'")
             # fill table
-            
             
             self.table_interfaces.insertRow(0)
             item=QtGui.QTableWidgetItem()
