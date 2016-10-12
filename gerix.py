@@ -726,7 +726,8 @@ class Main_window_ex(QMainWindow, Ui_Main_window):
                 driver_name=intf[2]
                 
             # get mac address
-            current_mac = commands.getoutput("ifconfig " + interface_name + " | grep HWaddr | awk ' { print $5 } ' | tr '-' ':'")
+            #current_mac = commands.getoutput("ifconfig " + interface_name + " | grep ether | awk ' { print $2 } ' | tr '-' ':'")
+            current_mac = commands.getoutput("ip -s link ls " + interface_name + " | grep link | awk ' { print $2 } ' | tr '-' ':'")
             current_mac = current_mac[:17]
             # get mode
             mode = commands.getoutput("iwconfig " + interface_name + " | tr ' ' '\n' | grep -i 'Mode:' | tr ':' ' ' | awk '{print $2 }'")
