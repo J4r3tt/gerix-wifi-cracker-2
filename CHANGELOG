@@ -1,3 +1,6 @@
+12 Oct 2016:
+- use "ip" command instead of “ifconfig" command to get mac address
+
 14 Oct 2015:
 - upgrade from qt3 to qt4
 - support both old and new airmon-ng(kali and kali 2)
